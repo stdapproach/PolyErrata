@@ -25,7 +25,6 @@ This is part of an (expectedly) long journey to revisit the mathematics in scien
 
 | Page | As printed | What it should be, and why |
 |---|---|---|
-| 13 | Vector product formula: $[v_1,v_2]=\begin{vmatrix}b_1&b_2\\c_1&c_2\end{vmatrix}i+\begin{vmatrix}c_1&c_2\\a_1&a_2\end{vmatrix}j+\begin{vmatrix}a_1&a_2\\b_1&b_2\end{vmatrix}k$ | Should be $[v_1,v_2]=\begin{vmatrix}c_1&c_2\\d_1&d_2\end{vmatrix}i+\begin{vmatrix}d_1&d_2\\b_1&b_2\end{vmatrix}j+\begin{vmatrix}b_1&b_2\\c_1&c_2\end{vmatrix}k$. The printed formula is correct for a vector with coordinates (a,b,c): the same determinant expression appears in Wilson, *Vector Analysis* (1901), article 35, which is in the public domain. But Arnold defines the vector as v = b·i + c·j + d·k, so its coordinates are (b,c,d). In his notation the corrected formula above is therefore needed: the substitution is a→b, b→c, c→d. |
 | 18 | $w z^{-1} = w\bar{z} = \overline{zw}$ | A minus sign is missing: for a purely imaginary $w$, $w\bar{z} = -\overline{zw}$ holds (since $\bar{w} = -w$). Counterexample: $z = 1,\ w = i$ gives $w\bar{z} = i$, while $\overline{zw} = -i$. |
 | 38 | "Its semi-axes have lengths $2A = r^2 - r^{-2}$" | The next formula, $(2A)^2 - (2B)^2 = \left[(r^2+r^{-2})^2 - (r^2-r^{-2})^2\right] = 4$, uses $2A = r^2 + r^{-2}$. It should be $2A = r^2 + r^{-2}$. |
 | 9 | Caption of Fig. 7: "$z = z \cdot w = 1$ — becomes" | Should be $zw = z = a + bi$ — becomes (with $w = 1$), as in the text on p. 9. |
@@ -35,6 +34,7 @@ This is part of an (expectedly) long journey to revisit the mathematics in scien
 
 | Page | As printed | Comment |
 |---|---|---|
+| 13 | Vector product: $[v_1,v_2]=\begin{vmatrix}b_1&b_2\\c_1&c_2\end{vmatrix}i+\begin{vmatrix}c_1&c_2\\a_1&a_2\end{vmatrix}j+\begin{vmatrix}a_1&a_2\\b_1&b_2\end{vmatrix}k$ | The printed formula is correct for a vector with coordinates $(a,b,c)$: the same determinant expression appears in Wilson, *Vector Analysis* (1901), article 35, which is in the public domain. But Arnold defines $v = b\,i + c\,j + d\,k$, so his coordinates are $(b,c,d)$, and in his notation the formula should read $[v_1,v_2]=\begin{vmatrix}c_1&c_2\\d_1&d_2\end{vmatrix}i+\begin{vmatrix}d_1&d_2\\b_1&b_2\end{vmatrix}j+\begin{vmatrix}b_1&b_2\\c_1&c_2\end{vmatrix}k$. This is an inconsistency of notation, not an error in the identity itself. |
 | 11 | "Something here was already done by Wessel, around 1820" | Wessel's work appeared in 1797–1799. This agrees with "seven years before Argand" on p. 3 (Argand, 1806). The year should probably be 1799, or 1797–1799. |
 | 22 | "Funkts. Analiz i ego prilozh., vol. $85$, no. $1$ ($2001$)" | The reference on p. $34$ (vol. $6$, $1972$) puts the 2001 volume at $35$. Probably vol. $35$. |
 | 33 | "In physics, the values $a_n$ are called 'levels'" | By the definition on p. 33 the index is $m = 1, \ldots, n$. Should be $a_m$. |
